@@ -1,92 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootcamp Helper — Extensão MV3</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #f4f4f9;
-            color: #333;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-        }
-        h1, h2 {
-            color: #1a1a1a;
-            border-bottom: 2px solid #e0e0e0;
-            padding-bottom: 10px;
-        }
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            text-align: center;
-            color: #666;
-            margin-top: 0;
-            margin-bottom: 30px;
-        }
-        .download-button {
-            display: block;
-            width: fit-content;
-            margin: 20px auto 40px auto;
-            background-color: #007bff;
-            color: #fff;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        .download-button:hover {
-            background-color: #0056b3;
-        }
-        code {
-            background-color: #e0e0e0;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: "Courier New", Courier, monospace;
-        }
-        ol, ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Bootcamp Helper</title>
+  <style>
+    body {
+      font-family: monospace;
+      background: #fff;
+      color: #000;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+    a {
+      display: inline-block;
+      margin: 15px 0;
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+  <h1>Bootcamp Helper</h1>
+  <p>Extensão para Chrome (Manifest V3)</p>
+  
+  <a href="#">Baixar ZIP</a>
 
-    <header>
-        <h1>Bootcamp Helper</h1>
-        <p class="subtitle">Extensão para Chrome (Manifest V3) — projeto do Bootcamp II.</p>
-    </header>
-
-    <main>
-        <a href="#" class="download-button">Baixar ZIP</a>
-
-        <section>
-            <h2>Instalação manual (modo desenvolvedor)</h2>
-            <ol>
-                <li>Acesse a aba <code>chrome://extensions</code> → ative o <strong>Developer mode</strong> (Modo do desenvolvedor).</li>
-                <li>Clique em <strong>Load unpacked</strong> (Carregar sem compactação) e selecione a pasta do projeto.</li>
-            </ol>
-        </section>
-
-        <section>
-            <h2>Permissões</h2>
-            <ul>
-                <li><code>storage</code></li>
-                <li><code>tabs</code></li>
-            </ul>
-        </section>
-    </main>
-
+  <h2>Instalação manual (no Chrome)</h2>
+  <ol>
+    <li>Aba <em>chrome://extensions</em></li>
+    <li>Clique em <strong>Load unpacked</strong></li>
+    <li>Selecione a pasta da extensão</li>
+  </ol>
 </body>
 </html>
