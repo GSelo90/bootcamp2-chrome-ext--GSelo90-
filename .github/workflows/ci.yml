@@ -33,7 +33,7 @@ jobs:
         
       - name: Testes E2E
 
-        run: npm run test:e2e || npm run test:e2e -- --reporter=html
+        run: npm run test:e2e
         
       - name: Publicar relatório do Playwright
         if: always()
